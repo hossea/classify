@@ -1,0 +1,77 @@
+.colored-icon {
+    font-size: 24px;
+  }
+  
+  .vehicles-icon {
+    color: red;
+  }
+  
+  .properties-icon {
+    color: orange;
+  }
+  
+  .mobile-phones-icon {
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    padding: 4px;
+  }
+  
+  .electronics-icon {
+    color: purple;
+  }
+  
+  .health-beauty-icon {
+    color: pink;
+  }
+  
+  .fashion-icon {
+    color: blue;
+  }
+  
+  .sports-arts-icon {
+    color: yellow;
+  }
+  
+  .work-cv-icon {
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    padding: 4px;
+  }
+  
+  .jobs-icon {
+    color: black;
+  }
+  
+  .furnitures-icon {
+    color: brown;
+  }
+  
+  .home-furnitures-icon {
+    color: green;
+  }
+  
+  .services-icon {
+    color: teal;
+  }
+  
+  .agriculture-icon {
+    color: green;
+  }
+  
+  .equipment-icon {
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    padding: 4px;
+  }
+  
+  .repairing-icon {
+    color: gray;
+  }
+  
+  .others-icon {
+    color: violet;
+  }
+  

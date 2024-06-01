@@ -1,0 +1,113 @@
+.sliderContainer {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 70vh;
+    margin-top: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ebebeb;
+  }
+  .sliderWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+  }
+  .slide {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .imageContainer {
+    flex: 1;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+  }
+  .image {
+    width: 250px;
+    height: 200px;
+    display: block;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+  }
+  .heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #000000;
+    font-family: sans-serif;
+    font-weight: 800;
+  }
+  .imageText {
+    margin: 0;
+    font-size: 15px;
+    color: #161515;
+    text-align: center;
+    padding: 10px 0;
+    border: #0c0a0a;
+    font-weight: 800;
+    font-family: sans-serif;
+  } 
+  .overlay {
+    position: absolute;
+    top: 10;
+    margin: 5;
+    left: 10;
+    width: 69%;
+    height: 96.8%;
+    background: linear-gradient(25deg , white 45%, transparent 40%);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 20px;
+    padding-bottom: 10px; 
+  }  
+  .icon {
+    margin-right: 2px;
+    align-items: center;
+    display: inline;
+    color: blue;
+  }
+  .adsText {
+    font-size: 14px;
+    color: #696868;
+  }
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+  }  
+  .prev {
+    left: 10px;
+  }
+  .next {
+    right: 10px;
+  } 
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+
